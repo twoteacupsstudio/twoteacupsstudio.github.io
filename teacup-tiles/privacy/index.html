@@ -1,1 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Teacup Tiles · Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600..800&family=Nunito:wght@400;600;800&display=swap">
+<style>
+:root{
+  --bg:#f7ecdf; --panel:#fffaf2; --fg:#4a3226; --muted:#8a6450; --line:#e3cdb3;
+  --accent:#c2496b; --accent-soft:#fde3ea; --chip:#efe2d0;
+  --display:"Fraunces",Georgia,serif; --body:"Nunito","Segoe UI",system-ui,-apple-system,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#231a16; --panel:#2d221d; --fg:#f6ebe1; --muted:#c9ad98; --line:#4a3a31;
+  --accent:#f59fb6; --accent-soft:#3d2629; --chip:#3a2d26; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#231a16; --panel:#2d221d; --fg:#f6ebe1; --muted:#c9ad98; --line:#4a3a31;
+  --accent:#f59fb6; --accent-soft:#3d2629; --chip:#3a2d26; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:28px 56px}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand svg{width:40px;height:40px;flex:none}
+.brand span{font-family:var(--display);font-weight:800;font-size:1.5rem}
+.lang{display:flex;background:var(--chip);border-radius:999px;padding:4px;gap:4px}
+.lang button{font:800 .8rem var(--body);letter-spacing:.06em;border:0;background:none;color:var(--muted);padding:7px 14px;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.lang button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,2.5rem);line-height:1.1;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:.9rem;margin:8px 0 0}
+.lead{font-size:1.08rem;margin:0}
+.summary{background:var(--accent-soft);border-radius:18px;padding:18px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px 20px}
+.summary div{min-width:0}
+.summary b{display:block;font-family:var(--display);font-weight:700;font-size:1rem}
+.summary small{color:var(--muted);font-size:.85rem;line-height:1.4;display:block}
+section{display:flex;flex-direction:column;gap:10px}
+h2{font-family:var(--display);font-weight:700;font-size:1.3rem;margin:0;text-wrap:balance}
+p{margin:0}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+a{color:var(--accent);font-weight:700;text-underline-offset:3px}
+.provider{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.provider b{font-weight:800}
+.contact{border-top:1px solid var(--line);padding-top:22px}
+.email{font-weight:800;font-size:1.05rem;user-select:all;word-break:break-all}
+[data-l-block][hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="2" y="2" width="36" height="36" rx="10" fill="#fffaf2" stroke="#4a3226" stroke-width="2"/><path d="M10 17 H27 V22 C27 27 23.5 30 18.5 30 C13.5 30 10 27 10 22 Z" fill="#f59fb6" stroke="#4a3226" stroke-width="2" stroke-linejoin="round"/><path d="M27 19 C31 19 31 25 27 25" fill="none" stroke="#4a3226" stroke-width="2"/><path d="M15 13 C15 11 17 11 17 9 M20 13 C20 11 22 11 22 9" fill="none" stroke="#c99a6d" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>Teacup Tiles</span>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" aria-pressed="true" data-l="en">EN</button>
+      <button type="button" aria-pressed="false" data-l="pt">PT</button>
+      <button type="button" aria-pressed="false" data-l="es">ES</button>
+    </div>
+  </header>
 
+  <!-- ================= ENGLISH ================= -->
+  <div data-l-block="en" lang="en" style="display:flex;flex-direction:column;gap:28px">
+    <div><h1>Privacy Policy</h1><p class="meta">Last updated: 20 November 2026</p></div>
+    <p class="lead">Teacup Tiles is a cozy tile-matching game published by Two Teacups Studio ("we"). This policy explains what information the game uses, why, and the choices you have.</p>
+    <div class="summary">
+      <div><b>No account needed</b><small>You never give us your email, phone number or real name.</small></div>
+      <div><b>Progress stays on your phone</b><small>Levels, sugar cubes, decorations and settings are saved on your device.</small></div>
+      <div><b>We don't sell your data</b><small>Ads and purchases are handled by Google, Apple and RevenueCat.</small></div>
+    </div>
+    <section>
+      <h2>Information saved on your device</h2>
+      <p>The game saves your progress on your own phone: levels, teacups, sugar cubes, tea bags, helpers, the shops and cottage you decorate, your teacup album, the player name and animal you choose, your year of birth if you give it, and your settings. We do not receive this information. If you delete the game, it is deleted too, except purchases, which you can bring back with "Restore purchases".</p>
+    </section>
+    <section>
+      <h2>Weekly ranking</h2>
+      <p>To show the weekly ranking, the game signs in anonymously to Google Firebase, which creates a random ID for your phone. Your player name, animal, accessories, background, league and weekly points are stored there so other players can see them. Do not use your real full name as your player name. If you report or block a player name, the report is stored so we can review it.</p>
+    </section>
+    <section>
+      <h2>Game statistics</h2>
+      <p>The game counts things like levels won, levels lost and videos watched, and sends these totals to Firebase as one shared count per day. These counts are not linked to you, and they help us find levels that are too hard.</p>
+    </section>
+    <section>
+      <h2>Advertising</h2>
+      <p>The free version shows ads through Google AdMob. To show and measure ads, Google may collect information such as your device type, operating system, IP address, approximate location based on that IP address, and how you interact with ads. On iPhone, the game asks for permission before allowing tracking across other companies' apps. If you say no, Google does not receive your device's advertising identifier.</p>
+      <p>If you tell us you are under 13, the game does not ask for tracking permission and only requests ads without personalisation. Players who buy "Remove ads" or join the Tea Garden do not see ads between levels.</p>
+    </section>
+    <section>
+      <h2>Purchases</h2>
+      <p>Payments are made through Apple (App Store) or Google (Google Play). We never see your card or payment details. We use RevenueCat to confirm purchases and restore them on a new phone. RevenueCat receives an anonymous ID created for the game, the products you bought, the purchase dates and your country or region. It does not receive your name or email.</p>
+    </section>
+    <section>
+      <h2>Reminders and photos</h2>
+      <p>If you turn on reminders, the notes are scheduled on your phone; nothing is sent to us. When you share a photo of your room, the picture is created on your phone and you choose where to send it.</p>
+    </section>
+    <section>
+      <h2>Service providers</h2>
+      <div class="provider"><b>Google AdMob</b><span>Ads in the free version. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></span></div>
+      <div class="provider"><b>Google Firebase</b><span>Anonymous sign-in, weekly ranking and daily game counts. <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a></span></div>
+      <div class="provider"><b>RevenueCat</b><span>Confirming and restoring purchases. <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a></span></div>
+      <div class="provider"><b>Apple and Google</b><span>App stores and payments. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></span></div>
+      <p>We do not sell your information.</p>
+    </section>
+    <section>
+      <h2>Children</h2>
+      <p>Teacup Tiles is suitable for all ages, but it is not designed specifically for children under 13 and we do not knowingly collect personal information from them. If you are a parent and believe your child has shared personal information with us, contact us and we will delete it.</p>
+    </section>
+    <section>
+      <h2>Your choices</h2>
+      <ul>
+        <li>You can change your player name at any time in your profile.</li>
+        <li>On iPhone, you can change tracking permission in Settings &gt; Privacy &amp; Security &gt; Tracking, and limit ad personalisation in Settings &gt; Privacy &amp; Security &gt; Apple Advertising.</li>
+        <li>You can ask us what information we hold about you, or ask us to delete your ranking entry, by writing to the address below.</li>
+      </ul>
+    </section>
+    <section><h2>Changes to this policy</h2><p>If we change this policy, we will update the date at the top of this page.</p></section>
+    <section class="contact"><h2>Contact</h2><p>Questions about privacy in Teacup Tiles:</p><p class="email" data-email></p></section>
+  </div>
+
+  <!-- ================= PORTUGUÊS ================= -->
+  <div data-l-block="pt" lang="pt-BR" style="display:flex;flex-direction:column;gap:28px" hidden>
+    <div><h1>Política de Privacidade</h1><p class="meta">Última atualização: 20 de novembro de 2026</p></div>
+    <p class="lead">Teacup Tiles é um jogo aconchegante de combinar peças, publicado pela Two Teacups Studio ("nós"). Esta política explica quais informações o jogo usa, para quê, e as escolhas que você tem.</p>
+    <div class="summary">
+      <div><b>Sem cadastro</b><small>Você nunca informa e-mail, telefone ou nome verdadeiro.</small></div>
+      <div><b>O progresso fica no seu celular</b><small>Fases, torrões de açúcar, decorações e ajustes ficam salvos no aparelho.</small></div>
+      <div><b>Não vendemos seus dados</b><small>Anúncios e compras são feitos pelo Google, pela Apple e pelo RevenueCat.</small></div>
+    </div>
+    <section>
+      <h2>Informações salvas no seu aparelho</h2>
+      <p>O jogo salva o seu progresso no seu próprio celular: fases, xícaras, torrões de açúcar, saquinhos de chá, ajudantes, as lojas e o chalé que você decora, o álbum de xícaras, o nome de jogador e o bichinho que você escolhe, seu ano de nascimento se você informar, e seus ajustes. Nós não recebemos essas informações. Se você apagar o jogo, elas também são apagadas, menos as compras, que voltam com "Restaurar compras".</p>
+    </section>
+    <section>
+      <h2>Ranking semanal</h2>
+      <p>Para mostrar o ranking semanal, o jogo entra de forma anônima no Google Firebase, que cria um código aleatório para o seu celular. Seu nome de jogador, bichinho, acessórios, fundo, liga e pontos da semana ficam guardados lá para outros jogadores verem. Não use seu nome completo verdadeiro como nome de jogador. Se você denunciar ou bloquear um nome de jogador, a denúncia fica guardada para nós analisarmos.</p>
+    </section>
+    <section>
+      <h2>Estatísticas do jogo</h2>
+      <p>O jogo conta coisas como fases ganhas, fases perdidas e vídeos assistidos, e envia esses totais para o Firebase como uma contagem única por dia, somando todos os jogadores. Essas contagens não são ligadas a você e nos ajudam a encontrar fases difíceis demais.</p>
+    </section>
+    <section>
+      <h2>Anúncios</h2>
+      <p>A versão grátis mostra anúncios pelo Google AdMob. Para mostrar e medir os anúncios, o Google pode coletar informações como o tipo de aparelho, o sistema, o endereço IP, a localização aproximada a partir desse IP e como você interage com os anúncios. No iPhone, o jogo pede permissão antes de permitir o rastreamento em apps de outras empresas. Se você disser não, o Google não recebe o identificador de publicidade do aparelho.</p>
+      <p>Se você informar que tem menos de 13 anos, o jogo não pede permissão de rastreamento e só pede anúncios sem personalização. Quem compra "Remover anúncios" ou participa do Tea Garden não vê anúncios entre as fases.</p>
+    </section>
+    <section>
+      <h2>Compras</h2>
+      <p>Os pagamentos são feitos pela Apple (App Store) ou pelo Google (Google Play). Nós nunca vemos os dados do seu cartão ou pagamento. Usamos o RevenueCat para confirmar as compras e restaurá-las num celular novo. O RevenueCat recebe um código anônimo criado pelo jogo, os produtos comprados, as datas das compras e o seu país ou região. Ele não recebe seu nome nem seu e-mail.</p>
+    </section>
+    <section>
+      <h2>Lembretes e fotos</h2>
+      <p>Se você ligar os lembretes, os avisos são agendados no seu celular; nada é enviado para nós. Quando você compartilha uma foto do seu cômodo, a imagem é criada no seu celular e você escolhe para onde enviar.</p>
+    </section>
+    <section>
+      <h2>Empresas que nos ajudam</h2>
+      <div class="provider"><b>Google AdMob</b><span>Anúncios na versão grátis. <a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a></span></div>
+      <div class="provider"><b>Google Firebase</b><span>Entrada anônima, ranking semanal e contagens diárias do jogo. <a href="https://firebase.google.com/support/privacy">Informações de privacidade do Firebase</a></span></div>
+      <div class="provider"><b>RevenueCat</b><span>Confirmar e restaurar compras. <a href="https://www.revenuecat.com/privacy">Política de Privacidade do RevenueCat</a></span></div>
+      <div class="provider"><b>Apple e Google</b><span>Lojas de apps e pagamentos. <a href="https://www.apple.com/br/legal/privacy/">Política de Privacidade da Apple</a></span></div>
+      <p>Nós não vendemos suas informações.</p>
+    </section>
+    <section>
+      <h2>Crianças</h2>
+      <p>Teacup Tiles é adequado para todas as idades, mas não foi feito especificamente para crianças menores de 13 anos, e nós não coletamos de propósito informações pessoais delas. Se você é mãe, pai ou responsável e acha que seu filho compartilhou informações pessoais conosco, fale com a gente que nós apagamos.</p>
+    </section>
+    <section>
+      <h2>Suas escolhas</h2>
+      <ul>
+        <li>Você pode trocar seu nome de jogador quando quiser, no seu perfil.</li>
+        <li>No iPhone, você pode mudar a permissão de rastreamento em Ajustes &gt; Privacidade e Segurança &gt; Rastreamento, e limitar a personalização de anúncios em Ajustes &gt; Privacidade e Segurança &gt; Publicidade da Apple.</li>
+        <li>Você pode pedir para saber quais informações temos sobre você, ou pedir para apagar seu registro no ranking, escrevendo para o endereço abaixo.</li>
+      </ul>
+    </section>
+    <section><h2>Mudanças nesta política</h2><p>Se esta política mudar, atualizamos a data no topo desta página.</p></section>
+    <section class="contact"><h2>Contato</h2><p>Dúvidas sobre privacidade no Teacup Tiles:</p><p class="email" data-email></p></section>
+  </div>
+
+  <!-- ================= ESPAÑOL ================= -->
+  <div data-l-block="es" lang="es" style="display:flex;flex-direction:column;gap:28px" hidden>
+    <div><h1>Política de Privacidad</h1><p class="meta">Última actualización: 20 de noviembre de 2026</p></div>
+    <p class="lead">Teacup Tiles es un acogedor juego de emparejar fichas publicado por Two Teacups Studio ("nosotros"). Esta política explica qué información usa el juego, para qué, y las opciones que tienes.</p>
+    <div class="summary">
+      <div><b>Sin registro</b><small>Nunca nos das tu correo, teléfono ni nombre real.</small></div>
+      <div><b>Tu progreso queda en tu teléfono</b><small>Niveles, terrones de azúcar, decoraciones y ajustes se guardan en tu dispositivo.</small></div>
+      <div><b>No vendemos tus datos</b><small>Los anuncios y las compras los gestionan Google, Apple y RevenueCat.</small></div>
+    </div>
+    <section>
+      <h2>Información guardada en tu dispositivo</h2>
+      <p>El juego guarda tu progreso en tu propio teléfono: niveles, tazas, terrones de azúcar, bolsitas de té, ayudantes, las tiendas y la casita que decoras, tu álbum de tazas, el nombre de jugador y el animal que eliges, tu año de nacimiento si lo indicas, y tus ajustes. Nosotros no recibimos esta información. Si borras el juego, también se borra, salvo las compras, que puedes recuperar con "Restaurar compras".</p>
+    </section>
+    <section>
+      <h2>Ranking semanal</h2>
+      <p>Para mostrar el ranking semanal, el juego inicia sesión de forma anónima en Google Firebase, que crea un código aleatorio para tu teléfono. Tu nombre de jugador, animal, accesorios, fondo, liga y puntos de la semana se guardan allí para que otros jugadores los vean. No uses tu nombre completo real como nombre de jugador. Si denuncias o bloqueas un nombre de jugador, la denuncia se guarda para que podamos revisarla.</p>
+    </section>
+    <section>
+      <h2>Estadísticas del juego</h2>
+      <p>El juego cuenta cosas como niveles ganados, niveles perdidos y vídeos vistos, y envía esos totales a Firebase como un único recuento diario de todos los jugadores. Estos recuentos no están vinculados a ti y nos ayudan a encontrar niveles demasiado difíciles.</p>
+    </section>
+    <section>
+      <h2>Publicidad</h2>
+      <p>La versión gratuita muestra anuncios mediante Google AdMob. Para mostrar y medir los anuncios, Google puede recopilar información como el tipo de dispositivo, el sistema operativo, la dirección IP, la ubicación aproximada según esa IP y cómo interactúas con los anuncios. En iPhone, el juego pide permiso antes de permitir el rastreo en apps de otras empresas. Si dices que no, Google no recibe el identificador de publicidad de tu dispositivo.</p>
+      <p>Si nos indicas que tienes menos de 13 años, el juego no pide permiso de rastreo y solo solicita anuncios sin personalización. Quienes compran "Quitar anuncios" o se unen al Tea Garden no ven anuncios entre niveles.</p>
+    </section>
+    <section>
+      <h2>Compras</h2>
+      <p>Los pagos se hacen a través de Apple (App Store) o Google (Google Play). Nunca vemos los datos de tu tarjeta o pago. Usamos RevenueCat para confirmar las compras y restaurarlas en un teléfono nuevo. RevenueCat recibe un código anónimo creado por el juego, los productos comprados, las fechas de compra y tu país o región. No recibe tu nombre ni tu correo.</p>
+    </section>
+    <section>
+      <h2>Recordatorios y fotos</h2>
+      <p>Si activas los recordatorios, los avisos se programan en tu teléfono; no se nos envía nada. Cuando compartes una foto de tu habitación, la imagen se crea en tu teléfono y tú eliges a dónde enviarla.</p>
+    </section>
+    <section>
+      <h2>Empresas que nos ayudan</h2>
+      <div class="provider"><b>Google AdMob</b><span>Anuncios en la versión gratuita. <a href="https://policies.google.com/privacy?hl=es">Política de Privacidad de Google</a></span></div>
+      <div class="provider"><b>Google Firebase</b><span>Inicio de sesión anónimo, ranking semanal y recuentos diarios del juego. <a href="https://firebase.google.com/support/privacy">Información de privacidad de Firebase</a></span></div>
+      <div class="provider"><b>RevenueCat</b><span>Confirmar y restaurar compras. <a href="https://www.revenuecat.com/privacy">Política de Privacidad de RevenueCat</a></span></div>
+      <div class="provider"><b>Apple y Google</b><span>Tiendas de apps y pagos. <a href="https://www.apple.com/es/legal/privacy/">Política de Privacidad de Apple</a></span></div>
+      <p>No vendemos tu información.</p>
+    </section>
+    <section>
+      <h2>Niños</h2>
+      <p>Teacup Tiles es apto para todas las edades, pero no está diseñado específicamente para menores de 13 años y no recopilamos a sabiendas información personal de ellos. Si eres madre, padre o tutor y crees que tu hijo nos ha compartido información personal, escríbenos y la borraremos.</p>
+    </section>
+    <section>
+      <h2>Tus opciones</h2>
+      <ul>
+        <li>Puedes cambiar tu nombre de jugador cuando quieras, en tu perfil.</li>
+        <li>En iPhone, puedes cambiar el permiso de rastreo en Ajustes &gt; Privacidad y seguridad &gt; Rastreo, y limitar la personalización de anuncios en Ajustes &gt; Privacidad y seguridad &gt; Publicidad de Apple.</li>
+        <li>Puedes preguntarnos qué información tenemos sobre ti, o pedirnos que borremos tu registro en el ranking, escribiendo a la dirección de abajo.</li>
+      </ul>
+    </section>
+    <section><h2>Cambios en esta política</h2><p>Si cambiamos esta política, actualizaremos la fecha al principio de esta página.</p></section>
+    <section class="contact"><h2>Contacto</h2><p>Preguntas sobre privacidad en Teacup Tiles:</p><p class="email" data-email></p></section>
+  </div>
+</div>
+<script>
+const EMAIL = "twoteacupsstudio" + "@" + "gmail.com";
+document.querySelectorAll("[data-email]").forEach(e => e.textContent = EMAIL);
+function setLang(l){
+  document.querySelectorAll("[data-l-block]").forEach(b => b.hidden = b.getAttribute("data-l-block") !== l);
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.l === l)));
+  document.documentElement.lang = l === "pt" ? "pt-BR" : l;
+}
+document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => { setLang(b.dataset.l); try { history.replaceState(null, "", "#" + b.dataset.l); } catch (e) {} }));
+const h = (location.hash || "").replace("#", ""), nl = (navigator.language || "").toLowerCase();
+setLang(["en", "pt", "es"].includes(h) ? h : nl.startsWith("pt") ? "pt" : nl.startsWith("es") ? "es" : "en");
+</script>
+</body>
+</html>
